@@ -8,9 +8,7 @@ cd $1
 mkdir css js
 
 echo -e " h1{color: red;}" > css/style.css
-
 echo -e "var string = Hello World;\n alert(srting);" > js/main.js
-
 echo -e "<!DOCTYPE html>\n <head>\n <title>Hello</title>\n <link rel="stylesheet" href="css/style.css">\n <script src="js/main.js"></script>\n </head>\n <body>\n <h1>Hi</h1>\n </body>" > index.html
 
 echo 'success'
